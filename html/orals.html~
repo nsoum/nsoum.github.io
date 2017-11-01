@@ -1,0 +1,177 @@
+<html>
+<title>Oral Exam</title>
+<u>Oral Exam for Soumyashant Nayak</u><br><br>
+Date : April 24, 2013<br>
+Time : 10 a.m.<br>
+Location : Astronomy Seminar Room, 4E19<br><br>
+
+Committee : Philip Gressman (Chair), Robert Strain, Christopher Croke<br>
+Major : Analysis (Harmonic Analysis, PDE)<br>
+Minor : Riemannian Geometry<br><br>
+
+C : What can you say about the cut locus of a compact manifold? Is it connected?<br>
+Me: Yes. The preimage under the exp map in the tangent space is homeomorphic to a sphere which is connected.<br><br>
+
+C : Can you give an example where the cut locus is homeomorphic to a circle?<br>
+Me: The first thing I could think of, which is a non-example, was a sphere with the standard metric but the cut locus is just a point. Then I thought of a flat torus but its cut locus is the
+wedge of two circles. (Prof. Croke was appreciative of the observations I made although they had little bearing on the question asked.) I asked him if I could make any curvature assumptions 
+so that I could try to work with conjugate points to get an example. He said, that's for later. He asked me to think about all compact surfaces I am familiar with and eventually I mentioned 
+the real projective space RP^2 whose cut locus is RP^1 which is homeomorphic to a circle.<br><br>
+
+C : Is there a metric on the sphere such that its cut locus is homeomorphic to circle ?<br>
+Me: I knew the answer was no but I was stuck for a bit. Then he asked me what I know about relation between topology of manifold and cut locus. Then I recalled that manifold minus cut locus is homeomorphic to R^n.
+Then there was a discussion on how after you remove the point, the manifold minus cut locus deformation retracts to the cut locus.<br><br>
+
+S : What do you know about Paley-Wiener Theory ?<br>
+Me: I thought it wasn't part of the syllabus. (Prof. Gressman said it was and nodded slightly disapprovingly. After the exam, I figured I had actually studied Paley-Wiener Theorem without
+knowing its name.)<br><br>
+
+S : What is a derivative? What is a weak derivative? Why isn't the delta "function" a function? What is a distributional derivative? What is the inclusion relation between the objects you
+have mentioned (smooth functions with compact support, distributions, schwartz functions, tempered distributions)? Where do distributions with compact support lie in this ordering by inclusion
+that you have written? Define Sobolev spaces.<br>
+Me: (I went through this part pretty quickly and smoothly)<br><br>
+
+S : What inequalities are you familiar with ? <br>
+(I mentioned GNS, Morrey's and gave a quick sketch of the proofs. Prof. Strain made a comment that he hadn't covered Morrey's inequality in class. The truth is since I skipped some classes I wasn't
+too sure what was covered and read everything.)<br><br>
+
+S : Can you give a more general version of GNS?<br>
+Me: I gave the fractional integration version with Riesz potentials briefly running through the "interpolation"-style proof using maximal function estimates and Holder's inequality. I also made a comment that
+this fact, along with Bessel potentials may be used to prove the Sobolev embedding theorem.<br><br>
+
+G : Do you know what happens when p=n?<br>
+Me: I don't really know. But while browsing some textbook I found it is related to BMO. (Prof. Gressman was satisfied with this answer)<br><br>
+
+S : Any more?<br>
+Me: Poincare's inequality. I gave the statement for smooth functions with compact support in a bounded domain and was asked to give the slightly more general version. I forgot to put the mean in the
+integral in the left hand side. But after Prof. Strain asked me if my inequality made sense for constant functions, I rectified the error.<br><br>
+
+S : For a ball of radius R, how does the constant in the Poincare's inequality vary with R? Why?<br>
+Me: Linearly. A simple dilation argument.<br><br>
+
+G : What can you say about the constant in Poincare's inequality when p=2?<br>
+Me: I didn't know the answer off-hand and stared at the board for what seemed like five minutes. Prof. Strain asked me to square both sides. Then I used Green's formula for the RHS to get a Laplacian and
+tried using Cauchy-Schwartz. Then I was warned it wouldn't yield much.<br><br>
+
+G : What do you know about the spectrum of the Laplace operator?<br>
+Me: It is a positive operator. Then I said, assuming the existence of an eigenfunction, we get that C^2 &gt;= 1/k where k is the eigenvalue and C is the constant in Poincare's inequality which
+settled the previously asked question.<br><br>
+
+G : Consider an operator T which is bounded on L^1 --&gt; L^1, L^(3/2) --&gt; weak L^3, L^2 --&gt; H^(1/2). What more can you say about the spaces between which the operator is bounded?<br>
+Me: Use Marcinkiewicz interpolation theorem after observing that H^(1/2) lies in L^2. I had to state the theorem and I made a couple of typos owing to transmission error between brain and hand. But
+it wasn't a big deal. <br><br>
+
+G : Do you know a more general statement?<br>
+Me: I muttered something about off-diagonal Marcinkiewicz interpolation. I guess Prof. Gressman didn't hear me and asked me if I knew about a version for Lorentz spaces. I said I didn't remember although
+I have read it in the past.<br><br>
+
+G : Draw the Riesz diagram for the operator?<br>
+Me: What's a Riesz diagram? I will take a guess. plot of (p,q) such that T is strong (p,q) bounded? May I draw (1/p,1/q) instead ?<br><br>
+
+G : That is exactly what the Riesz diagram is.<br>
+Me: Ok. It is the convex hull of (1/2,1/2),(2/3,1/3),(1,1) excluding the point (2/3,1/3)<br><br>
+
+G : Are there more points in the Riesz diagram?<br>
+Me: I suppose so. I had some loss of information when I replaced H^(1/2) by L^2. After staring at the board for 2 minutes, Prof. Strain gave me a hint that I should use a theorem I have already mentioned (Sobolev
+embedding).<br><br>
+
+S : If a function is in H^s and H^t and s &lt; t, what can you say about it?<br>
+Me: I was a bit confused by this question as H^s contains H^t and saying a function belongs to both felt redundant.<br><br>
+
+S : Let me clarify. If s &lt; r&lt; t, can you estimate H^r norm using H^s norm and H^t norm?<br>
+Me: I gave the inequality which bounds H^r norm by the H^s norm and H^t norm in the appropriate form.<br><br>
+
+C : We are back to geometry and now we will have curvature. Give examples of manifolds with non-positive sectional curvature. <br>
+Me: Naturally I started off with constant curvature spaces. R^n, H^n. <br><br>
+
+C : Let's go for examples of compact manifolds.<br>
+Me: the whole bunch of flat tori. surface of genus g &gt; 1 , T_g with constant negative curvature. I went through the motions of proving why it can be done, using the Poincare ball model. I couldn't think of any more after that.<br><br>
+
+
+C : How can you generate new manifolds from existing examples? Try product manifolds.<br>
+Me: Ok. Let me see if T_g X S^n has nonpositive curvature. For n &gt; 1, with the standard product metric, it does not have nonpositive curvature due to Gauss equation and the fact that geodesics on the sphere are still
+geodesics of T_g X S^n.<br><br>
+
+C : Can you give it a different metric so that it has non-positive curvature?<br>
+Me: The only theorem I know about non-positive curvature stuff is Preissman's Theorem and that too is about strictly negative curvature.<br><br>
+
+C : I don't think so.<br>
+Me: Oh Yeah. Cartan-Hadamard Theorem. Lift the metric, if there is one, to the covering space H^n X S^n (n &gt; 1) and notice that it is not diffeomorphic to R^n to derive a contradiction. When n=1, we actually have an example.<br><br>
+
+C : Can it have strictly negative curvature?<br>
+Me: No. The fundamental group is pi_1(T_g) X Z and pi_1(T_g) has a copy of Z in it. Thus there is a copy of Z X Z in the fundamental group of the manifold. Conclude using Preissman's Theorem.<br><br>
+
+S : What do you know about Schrodinger's equation ?<br>
+Me: (Until now, my exam had gone pretty decently. So it didn't bother me much that the last time I had looked at Schrodinger's equation was 4 months ago in Math 644.) I wrote down the kernel saying it is like the 
+imaginary version of the heat kernel.<br><br>
+
+S : What kind of norm is conserved in time in case of Schrodinger equation, heat equation?<br>
+Me: I vaguely remembered that L^2 norm is conserved for Schrodinger equation and L^1 norm for heat equation but I didn't want to make a statement before being absolutely sure. So I started writing stuff on the board.
+I used Holder's inequality and gave an upper bound for norm using initial condition.<br><br>
+
+S : What can you say about L^1 norm of convolution of two positive functions?<br>
+Me: It is the product of the L^1 norms. So if we assume that initial condition is positive-valued, we have conservation of L^1 norm for heat equation.<br><br>
+
+S : That assumption is natural for physical systems. What about Schrodinger equation?<br>
+Me: L^2 norm is conserved, by Plancherel's theorem. (I had to take Fourier transforms and compute the multiplier)<br><br>
+
+S : What can you say about regularity properties of solution to Schrodinger's equation?<br>
+Me: (Clueless) So I try to mimic properties of heat equation saying its analytic. Prof. Gressman shook his head and Prof. Strain asked me to differentiate the solution (which was in convolution form). Then I realised
+its not analytic and took back my words.<br><br>
+
+S : What if initial condition is C^k?<br>
+Me: Won't the solution be smooth anyway as the kernel is smooth?<br><br>
+
+S : Really?<br>
+Me: I need the assumption that the initial condition is compactly supported. In case I am not given that assumption, I will just say that the solution is C^k.<br><br>
+
+S, G : That assumption is not a physical assumption in case of Schrodinger's equation.<br>
+S : Tell me about the Strichartz estimates.<br>
+Me: I just vaguely remember something about it being a dispersive estimate. I don't remember the details.<br><br>
+
+S : Estimate L^p norm of solution to heat equation with L^q norm of initial condition? I give it to you that there is a dispersive term as coefficient. Find the power of t there. <br>
+Me: Dilate the heat kernel and dilate g, the initial condition, you find some exponent. At first, I got the sign wrong and I was also missing a factor of 1/2. But they just pointed it out and didn't seem to mind.<br><br>
+
+S : What did you like best in Math 644?<br>
+Me: Laplace equation, Heat Equation, Wave Equation.<br><br>
+
+S : Ok. Everything except Schrodinger's equation.<br>
+Me: (Grin. No answer to that.)<br><br>
+
+S : Write down the transport equation and its solution? Think of b as a variable in R^n and write down the inequality for mixed L^p,L^q norms .<br>
+Me: I just mentioned that this was a final homework problem in Math 644 and we had to use change of variables and Minkowski integral inequality to get the dispersion term. And given finite amount of time, I should
+be able to reconstruct it. He wasn't very interested.<br><br>
+
+G : Tell me a Calderon-Zygmund type theorem.<br>
+Me: I mentioned the standard result about L^2 bounded operators with kernels satisfying certain conditions.<br><br>
+
+G : Give example of such an operator.<br>
+Me: Hilbert transform<br><br>
+
+G : An example in higher dimension.<br>
+Me: Riesz transforms. I was asked to write down the kernel and multiplier.<br><br>
+
+G : Why are Riesz transforms important to study?<br>
+Me: In the Poisson equation, they help to give a priori L^p bounds for the mixed second derivatives.<br><br>
+
+Then I was sent out and asked to wait in the hallway. I went to the grad lounge as previous students had mentioned that consultation can take as long as 15 min. But after a minute, I heard "Where did he go?" in the
+hallway. So I went after Prof. Gressman who had headed in the opposite direction looking for me. The committee had deemed me fit to pass the exam and congratulated me. One final question awaited me and I definitely
+knew the answer to that question.<br><br>
+
+Prof. Kadison : What is Max's last name ?<br>
+Me : Gilula (not jee-lula but gee-lula)<br>
+(Prof. Kadison had come to witness my oral exams )<br><br>
+The exam lasted for about 2 hr 20 min.<br><br>
+
+<u>Some Observations:</u><br>
+1) It is natural to be stressed before the exam. The first 10 minutes are very important for confidence.<br>
+2) My committee was very nice and I didn't feel stressed even once during the exam. They were generous with hints.<br>
+3) There isn't enough time to cover everything in your syllabus. The harmonic analysis asked in the exam was a fraction of what was in the syllabus.
+
+
+
+
+
+
+
+</html>
